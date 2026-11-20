@@ -34,6 +34,16 @@ class SiteQuality(unittest.TestCase):
                 self.assertIn('Not affiliated with HoYoverse',text)
                 self.assertTrue(all('alt' in img for img in parser.images))
                 self.assertTrue(all('type' in b for b in parser.buttons),f'button lacking explicit type: {doc.name}')
+    def test_markup_balanced_for_structural_tags(self):
+        # Structural HTML balance catches browser auto-repair that can silently break CSS grids.
+        tags = ('div','section','main','header','footer','nav','a','button','h1','h2','h3','em','i','strong','p')
+        for doc in ROOT.glob('*.html'):
+            raw = doc.read_text(encoding='utf-8')
+            for tag in tags:
+                opens=len(re.findall(fr'<{tag}(?=[\s>])',raw))
+                closes=len(re.findall(fr'</{tag}>',raw))
+                with self.subTest(page=doc.name,tag=tag):
+                    self.assertEqual(opens,closes,f'Unbalanced <{tag}> in {doc.name}')
     def test_no_broken_local_links(self):
         for doc in ROOT.glob('*.html'):
             parser=SiteParser();parser.feed(doc.read_text(encoding='utf-8'))
