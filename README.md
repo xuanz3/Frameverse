@@ -8,7 +8,7 @@ An independent anime, comics and collecting culture website. Cinematic original 
 python3 -m http.server 8000
 ```
 
-Open <http://localhost:8000>.
+Open <http://localhost:8000>. On macOS, you can also double-click `start.command` (with Node.js or Python 3 installed); on Windows use `start.bat`.
 
 ## Architecture
 
@@ -23,7 +23,7 @@ Rebuild generated HTML and index after content edits with `python3 build.py`. Do
 
 ## Publishing
 
-Deploy the entire repository root as a static site to Vercel, Netlify or Cloudflare Pages; no build step or runtime service is needed. All pages are standalone `.html` files. Configure a custom domain when available; replace the placeholder sitemap URL in `build.py` before submitting it to search engines.
+Deploy the entire repository root as a static site to Vercel, Netlify or Cloudflare Pages; no build step or runtime service is needed. All pages are standalone `.html` files. Configure a custom domain when available; set `SITE_URL=https://your-real-domain.example` when rebuilding to generate a valid `sitemap.xml`.
 
 ## Contact workflow
 
