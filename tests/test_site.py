@@ -71,6 +71,16 @@ class SiteQuality(unittest.TestCase):
         for item in idx:
             self.assertTrue((ROOT/item['url']).is_file(),f"Missing search target: {item['url']}")
             self.assertTrue((ROOT/item['image']).is_file())
+    def test_creator_attribution_is_consistent_and_scoped(self):
+        for doc in ROOT.glob('*.html'):
+            html=doc.read_text(encoding='utf-8')
+            with self.subTest(page=doc.name):
+                self.assertIn('<meta name="author" content="Xuanze Chen">', html)
+                self.assertIn('WEBSITE DESIGNED &amp; DEVELOPED BY <strong>XUANZE CHEN</strong>',html)
+                self.assertIn('Not affiliated with HoYoverse',html)
+        self.assertIn('CREATED BY XUANZE CHEN',(ROOT/'index.html').read_text(encoding='utf-8'))
+        self.assertIn('id="creator-title"',(ROOT/'about.html').read_text(encoding='utf-8'))
+        self.assertIn('Xuanze Chen',(ROOT/'README.md').read_text(encoding='utf-8'))
     def test_no_legacy_shop_or_event_claims(self):
         for doc in ROOT.glob('*.html'):
             body=doc.read_text(encoding='utf-8').lower()
