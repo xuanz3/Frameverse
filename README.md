@@ -4,6 +4,10 @@ FRAMEVERSE is an independently presented visual archive of **Zenless Zone Zero**
 
 **This website is independent and unofficial.** Zenless Zone Zero and all game imagery belong to their respective rights holders. The user provided the original art files; this source distribution is for personal/local review and does not grant permission to commercially reuse or publicly republish them.
 
+## Website credits
+
+**Website design and development: Xuanze Chen.** The FRAMEVERSE interface, layout, presentation and website implementation carry this credit in the home hero, About page, footer and page metadata. This credit refers to the FRAMEVERSE website work, **not** ownership of the third-party Zenless Zone Zero character and art assets.
+
 ## Run locally
 
 - Double-click `start.command` on macOS or `start.bat` on Windows, **or**
