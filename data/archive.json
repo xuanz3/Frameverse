@@ -1,0 +1,745 @@
+{
+  "wallpapers": [
+    {
+      "id": "wall-01",
+      "title": "AFTER THE STATIC",
+      "tag": "CINEMATIC",
+      "image": "media/wall-01.webp",
+      "original": "kv.159fab06..jpg"
+    },
+    {
+      "id": "wall-02",
+      "title": "WELCOME TO NEW ERIDU",
+      "tag": "KEY ART",
+      "image": "media/wall-02.webp",
+      "original": "Key-Art_EN-scaled.jpg"
+    },
+    {
+      "id": "wall-03",
+      "title": "THE CITY IN MOTION",
+      "tag": "KEY ART",
+      "image": "media/wall-03.webp",
+      "original": "dc0d33bb005fc4d03341775cd1f33f53350254366.png"
+    },
+    {
+      "id": "wall-04",
+      "title": "A DIFFERENT SIDE OF THE CITY",
+      "tag": "SPECTRUM",
+      "image": "media/wall-04.webp",
+      "original": "kv.83046a05..jpg"
+    },
+    {
+      "id": "wall-05",
+      "title": "COLOUR IN THE NOISE",
+      "tag": "KEY ART",
+      "image": "media/wall-05.webp",
+      "original": "kv.91aea658..jpg"
+    },
+    {
+      "id": "wall-06",
+      "title": "BEYOND THE HORIZON",
+      "tag": "CITY LIGHTS",
+      "image": "media/wall-06.webp",
+      "original": "6a297ab54110a134d35c2fefbdf1c7e5350254366.jpg"
+    }
+  ],
+  "cg": [
+    {
+      "id": "cg-01",
+      "title": "A MOMENT OF HEAT",
+      "episode": "ChapterLighter / 01",
+      "image": "media/cg-01.webp",
+      "category": "STORY"
+    },
+    {
+      "id": "cg-02",
+      "title": "ON THE OTHER SIDE",
+      "episode": "Imop00 / 01 / 01",
+      "image": "media/cg-02.webp",
+      "category": "STORY"
+    },
+    {
+      "id": "cg-03",
+      "title": "MIDNIGHT SIGNAL",
+      "episode": "S2Chapter7 / 03",
+      "image": "media/cg-03.webp",
+      "category": "STORY"
+    },
+    {
+      "id": "cg-04",
+      "title": "FRIENDS IN FRAME",
+      "episode": "S2Chapter7 / 04",
+      "image": "media/cg-04.webp",
+      "category": "STORY"
+    },
+    {
+      "id": "cg-05",
+      "title": "DREAMS IN MOTION",
+      "episode": "S2Chapter7 / 05",
+      "image": "media/cg-05.webp",
+      "category": "STORY"
+    },
+    {
+      "id": "cg-06",
+      "title": "A LETTER FROM THE CITY",
+      "episode": "SayItWithFlowers / 01",
+      "image": "media/cg-06.webp",
+      "category": "SPECIAL"
+    },
+    {
+      "id": "cg-07",
+      "title": "THE INNER FREQUENCY",
+      "episode": "Special2 / 01",
+      "image": "media/cg-07.webp",
+      "category": "SPECIAL"
+    },
+    {
+      "id": "cg-08",
+      "title": "SOMEWHERE AFTER DARK",
+      "episode": "Special3 / 01",
+      "image": "media/cg-08.webp",
+      "category": "SPECIAL"
+    },
+    {
+      "id": "cg-09",
+      "title": "SUMMER FRAGMENTS",
+      "episode": "Summer2025 / 05",
+      "image": "media/cg-09.webp",
+      "category": "SPECIAL"
+    }
+  ],
+  "scenes": [
+    {
+      "id": "scene-01",
+      "title": "NEW ERIDU / 001",
+      "tag": "DAYLIGHT",
+      "category": "上午",
+      "image": "media/scene-01.webp",
+      "original": "20240704230516.jpg",
+      "credit": "In-game scene · contributed screenshot"
+    },
+    {
+      "id": "scene-02",
+      "title": "NEW ERIDU / 002",
+      "tag": "DAYLIGHT",
+      "category": "上午",
+      "image": "media/scene-02.webp",
+      "original": "20240706141133.jpg",
+      "credit": "In-game scene · contributed screenshot"
+    },
+    {
+      "id": "scene-03",
+      "title": "NEW ERIDU / 003",
+      "tag": "DAYLIGHT",
+      "category": "上午",
+      "image": "media/scene-03.webp",
+      "original": "20240706141212.jpg",
+      "credit": "In-game scene · contributed screenshot"
+    },
+    {
+      "id": "scene-04",
+      "title": "NEW ERIDU / 004",
+      "tag": "DAYLIGHT",
+      "category": "上午",
+      "image": "media/scene-04.webp",
+      "original": "20240706141314.jpg",
+      "credit": "In-game scene · contributed screenshot"
+    },
+    {
+      "id": "scene-05",
+      "title": "NEW ERIDU / 005",
+      "tag": "AFTERNOON",
+      "category": "下午",
+      "image": "media/scene-05.webp",
+      "original": "20240706194235.jpg",
+      "credit": "In-game scene · contributed screenshot"
+    },
+    {
+      "id": "scene-06",
+      "title": "NEW ERIDU / 006",
+      "tag": "AFTERNOON",
+      "category": "下午",
+      "image": "media/scene-06.webp",
+      "original": "20240706194335.jpg",
+      "credit": "In-game scene · contributed screenshot"
+    },
+    {
+      "id": "scene-07",
+      "title": "NEW ERIDU / 007",
+      "tag": "AFTERNOON",
+      "category": "下午",
+      "image": "media/scene-07.webp",
+      "original": "20240706194352.jpg",
+      "credit": "In-game scene · contributed screenshot"
+    },
+    {
+      "id": "scene-08",
+      "title": "NEW ERIDU / 008",
+      "tag": "AFTERNOON",
+      "category": "下午",
+      "image": "media/scene-08.webp",
+      "original": "20240706194621.jpg",
+      "credit": "In-game scene · contributed screenshot"
+    },
+    {
+      "id": "scene-09",
+      "title": "NEW ERIDU / 009",
+      "tag": "AFTER DARK",
+      "category": "夜晚",
+      "image": "media/scene-09.webp",
+      "original": "20240706133623.jpg",
+      "credit": "In-game scene · contributed screenshot"
+    },
+    {
+      "id": "scene-10",
+      "title": "NEW ERIDU / 010",
+      "tag": "AFTER DARK",
+      "category": "夜晚",
+      "image": "media/scene-10.webp",
+      "original": "20240706133648.jpg",
+      "credit": "In-game scene · contributed screenshot"
+    },
+    {
+      "id": "scene-11",
+      "title": "NEW ERIDU / 011",
+      "tag": "AFTER DARK",
+      "category": "夜晚",
+      "image": "media/scene-11.webp",
+      "original": "20240706133710.jpg",
+      "credit": "In-game scene · contributed screenshot"
+    },
+    {
+      "id": "scene-12",
+      "title": "NEW ERIDU / 012",
+      "tag": "AFTER DARK",
+      "category": "夜晚",
+      "image": "media/scene-12.webp",
+      "original": "20240706133746.jpg",
+      "credit": "In-game scene · contributed screenshot"
+    },
+    {
+      "id": "scene-13",
+      "title": "NEW ERIDU / 013",
+      "tag": "INTERIOR",
+      "category": "室内",
+      "image": "media/scene-13.webp",
+      "original": "20240706134229.jpg",
+      "credit": "In-game scene · contributed screenshot"
+    },
+    {
+      "id": "scene-14",
+      "title": "NEW ERIDU / 014",
+      "tag": "INTERIOR",
+      "category": "室内",
+      "image": "media/scene-14.webp",
+      "original": "20240706134441.jpg",
+      "credit": "In-game scene · contributed screenshot"
+    },
+    {
+      "id": "scene-15",
+      "title": "NEW ERIDU / 015",
+      "tag": "INTERIOR",
+      "category": "室内",
+      "image": "media/scene-15.webp",
+      "original": "20240706134608.jpg",
+      "credit": "In-game scene · contributed screenshot"
+    },
+    {
+      "id": "scene-16",
+      "title": "NEW ERIDU / 016",
+      "tag": "INTERIOR",
+      "category": "室内",
+      "image": "media/scene-16.webp",
+      "original": "20240706134803.jpg",
+      "credit": "In-game scene · contributed screenshot"
+    },
+    {
+      "id": "scene-17",
+      "title": "NEW ERIDU / 017",
+      "tag": "GOLDEN HOUR",
+      "category": "黄昏",
+      "image": "media/scene-17.webp",
+      "original": "20240706201938.jpg",
+      "credit": "In-game scene · contributed screenshot"
+    },
+    {
+      "id": "scene-18",
+      "title": "NEW ERIDU / 018",
+      "tag": "GOLDEN HOUR",
+      "category": "黄昏",
+      "image": "media/scene-18.webp",
+      "original": "20240706202053.jpg",
+      "credit": "In-game scene · contributed screenshot"
+    },
+    {
+      "id": "scene-19",
+      "title": "NEW ERIDU / 019",
+      "tag": "GOLDEN HOUR",
+      "category": "黄昏",
+      "image": "media/scene-19.webp",
+      "original": "20240706202112.jpg",
+      "credit": "In-game scene · contributed screenshot"
+    },
+    {
+      "id": "scene-20",
+      "title": "NEW ERIDU / 020",
+      "tag": "GOLDEN HOUR",
+      "category": "黄昏",
+      "image": "media/scene-20.webp",
+      "original": "20240706202151.jpg",
+      "credit": "In-game scene · contributed screenshot"
+    },
+    {
+      "id": "scene-21",
+      "title": "NEW ERIDU / 021",
+      "tag": "DETAIL STUDY",
+      "category": "材质",
+      "image": "media/scene-21.webp",
+      "original": "20240704230427.jpg",
+      "credit": "In-game scene · contributed screenshot"
+    },
+    {
+      "id": "scene-22",
+      "title": "NEW ERIDU / 022",
+      "tag": "DETAIL STUDY",
+      "category": "材质",
+      "image": "media/scene-22.webp",
+      "original": "20240706182407.jpg",
+      "credit": "In-game scene · contributed screenshot"
+    },
+    {
+      "id": "scene-23",
+      "title": "NEW ERIDU / 023",
+      "tag": "STREET OBJECTS",
+      "category": "物件",
+      "image": "media/scene-23.webp",
+      "original": "20240706140752.jpg",
+      "credit": "In-game scene · contributed screenshot"
+    },
+    {
+      "id": "scene-24",
+      "title": "NEW ERIDU / 024",
+      "tag": "STREET OBJECTS",
+      "category": "物件",
+      "image": "media/scene-24.webp",
+      "original": "20240706140814.jpg",
+      "credit": "In-game scene · contributed screenshot"
+    }
+  ],
+  "bangboo": [
+    {
+      "id": "bang-01",
+      "name": "共鸣布",
+      "rank": "S",
+      "image": "media/bang-01.webp"
+    },
+    {
+      "id": "bang-02",
+      "name": "咔嚓仔",
+      "rank": "S",
+      "image": "media/bang-02.webp"
+    },
+    {
+      "id": "bang-03",
+      "name": "墨丘利",
+      "rank": "S",
+      "image": "media/bang-03.webp"
+    },
+    {
+      "id": "bang-04",
+      "name": "左轮布",
+      "rank": "S",
+      "image": "media/bang-04.webp"
+    },
+    {
+      "id": "bang-05",
+      "name": "巴特勒",
+      "rank": "S",
+      "image": "media/bang-05.webp"
+    },
+    {
+      "id": "bang-06",
+      "name": "插头布",
+      "rank": "S",
+      "image": "media/bang-06.webp"
+    },
+    {
+      "id": "bang-07",
+      "name": "格列佛探员",
+      "rank": "S",
+      "image": "media/bang-07.webp"
+    },
+    {
+      "id": "bang-08",
+      "name": "比克布利克",
+      "rank": "S",
+      "image": "media/bang-08.webp"
+    },
+    {
+      "id": "bang-09",
+      "name": "狮耶",
+      "rank": "S",
+      "image": "media/bang-09.webp"
+    },
+    {
+      "id": "bang-10",
+      "name": "罗宾",
+      "rank": "S",
+      "image": "media/bang-10.webp"
+    },
+    {
+      "id": "bang-11",
+      "name": "艾丝弥小姐",
+      "rank": "S",
+      "image": "media/bang-11.webp"
+    },
+    {
+      "id": "bang-12",
+      "name": "艾米莉安",
+      "rank": "S",
+      "image": "media/bang-12.webp"
+    },
+    {
+      "id": "bang-13",
+      "name": "赤红莫库斯",
+      "rank": "S",
+      "image": "media/bang-13.webp"
+    },
+    {
+      "id": "bang-14",
+      "name": "阿全",
+      "rank": "S",
+      "image": "media/bang-14.webp"
+    },
+    {
+      "id": "bang-15",
+      "name": "阿崔巡查",
+      "rank": "S",
+      "image": "media/bang-15.webp"
+    },
+    {
+      "id": "bang-16",
+      "name": "飚速布",
+      "rank": "S",
+      "image": "media/bang-16.webp"
+    },
+    {
+      "id": "bang-17",
+      "name": "鲨牙布",
+      "rank": "S",
+      "image": "media/bang-17.webp"
+    },
+    {
+      "id": "bang-18",
+      "name": "不良布",
+      "rank": "A",
+      "image": "media/bang-18.webp"
+    },
+    {
+      "id": "bang-19",
+      "name": "企鹅布",
+      "rank": "A",
+      "image": "media/bang-19.webp"
+    },
+    {
+      "id": "bang-20",
+      "name": "加班布",
+      "rank": "A",
+      "image": "media/bang-20.webp"
+    },
+    {
+      "id": "bang-21",
+      "name": "圣剑布",
+      "rank": "A",
+      "image": "media/bang-21.webp"
+    },
+    {
+      "id": "bang-22",
+      "name": "寻宝布",
+      "rank": "A",
+      "image": "media/bang-22.webp"
+    }
+  ],
+  "agents": [
+    {
+      "id": "agent-01",
+      "name": "ANBY",
+      "subtitle": "VISUAL DOSSIER / 01",
+      "image": "media/agent-01.webp",
+      "aspect": 0.5,
+      "source": "ZZZ character card artwork"
+    },
+    {
+      "id": "agent-02",
+      "name": "AGENT FILE 02",
+      "subtitle": "VISUAL DOSSIER / 02",
+      "image": "media/agent-02.webp",
+      "aspect": 0.28,
+      "source": "ZZZ character card artwork"
+    },
+    {
+      "id": "agent-03",
+      "name": "PULCHRA",
+      "subtitle": "VISUAL DOSSIER / 03",
+      "image": "media/agent-03.webp",
+      "aspect": 0.5,
+      "source": "ZZZ character card artwork"
+    },
+    {
+      "id": "agent-04",
+      "name": "AGENT FILE 04",
+      "subtitle": "VISUAL DOSSIER / 04",
+      "image": "media/agent-04.webp",
+      "aspect": 0.77,
+      "source": "ZZZ character card artwork"
+    },
+    {
+      "id": "agent-05",
+      "name": "YIXUAN",
+      "subtitle": "VISUAL DOSSIER / 05",
+      "image": "media/agent-05.webp",
+      "aspect": 0.77,
+      "source": "ZZZ character card artwork"
+    },
+    {
+      "id": "agent-06",
+      "name": "TRIGGER",
+      "subtitle": "VISUAL DOSSIER / 06",
+      "image": "media/agent-06.webp",
+      "aspect": 0.5,
+      "source": "ZZZ character card artwork"
+    },
+    {
+      "id": "agent-07",
+      "name": "VIVIAN",
+      "subtitle": "VISUAL DOSSIER / 07",
+      "image": "media/agent-07.webp",
+      "aspect": 0.5,
+      "source": "ZZZ character card artwork"
+    },
+    {
+      "id": "agent-08",
+      "name": "AGENT FILE 08",
+      "subtitle": "VISUAL DOSSIER / 08",
+      "image": "media/agent-08.webp",
+      "aspect": 0.75,
+      "source": "ZZZ character card artwork"
+    },
+    {
+      "id": "agent-09",
+      "name": "PULCHRA / ALT",
+      "subtitle": "VISUAL DOSSIER / 09",
+      "image": "media/agent-09.webp",
+      "aspect": 0.5,
+      "source": "ZZZ character card artwork"
+    },
+    {
+      "id": "agent-10",
+      "name": "AGENT FILE 10",
+      "subtitle": "VISUAL DOSSIER / 10",
+      "image": "media/agent-10.webp",
+      "aspect": 0.5,
+      "source": "ZZZ character card artwork"
+    },
+    {
+      "id": "agent-11",
+      "name": "AGENT FILE 11",
+      "subtitle": "VISUAL DOSSIER / 11",
+      "image": "media/agent-11.webp",
+      "aspect": 0.5,
+      "source": "ZZZ character card artwork"
+    },
+    {
+      "id": "agent-12",
+      "name": "AGENT FILE 12",
+      "subtitle": "VISUAL DOSSIER / 12",
+      "image": "media/agent-12.webp",
+      "aspect": 0.5,
+      "source": "ZZZ character card artwork"
+    }
+  ],
+  "ui": [
+    {
+      "id": "ui-01",
+      "title": "ILLUSTRATION / 001",
+      "category": "ILLUSTRATION",
+      "image": "media/ui-01.webp",
+      "original": "14ad66b9d726242bd05b9c153d0e4ff2_5842317854197372136.png"
+    },
+    {
+      "id": "ui-02",
+      "title": "ILLUSTRATION / 002",
+      "category": "ILLUSTRATION",
+      "image": "media/ui-02.webp",
+      "original": "2c922e7a628a0da421c379fd01dadbc7_3613600539715984322.png"
+    },
+    {
+      "id": "ui-03",
+      "title": "ILLUSTRATION / 003",
+      "category": "ILLUSTRATION",
+      "image": "media/ui-03.webp",
+      "original": "37198ce9c5ee13abb2c49f1bd1c3ca97_7702488080246216541.png"
+    },
+    {
+      "id": "ui-04",
+      "title": "ILLUSTRATION / 004",
+      "category": "ILLUSTRATION",
+      "image": "media/ui-04.webp",
+      "original": "7dc8e490e0e15e0656458003241b94ad_8371389282001677330.png"
+    },
+    {
+      "id": "ui-05",
+      "title": "ILLUSTRATION / 005",
+      "category": "ILLUSTRATION",
+      "image": "media/ui-05.webp",
+      "original": "e59c7fbcc5b35647a685cca6ead45a3c_4897679455361675245.jpeg"
+    },
+    {
+      "id": "ui-06",
+      "title": "ILLUSTRATION / 006",
+      "category": "ILLUSTRATION",
+      "image": "media/ui-06.webp",
+      "original": "fb799d1893d2cebf052307d9ee697ea0_6337564435247203666.png"
+    },
+    {
+      "id": "ui-07",
+      "title": "ILLUSTRATION / 007",
+      "category": "ILLUSTRATION",
+      "image": "media/ui-07.webp",
+      "original": "tv-kv.67d2b4cd..png"
+    },
+    {
+      "id": "ui-08",
+      "title": "ILLUSTRATION / 008",
+      "category": "ILLUSTRATION",
+      "image": "media/ui-08.webp",
+      "original": "法厄同.png"
+    },
+    {
+      "id": "ui-09",
+      "title": "ILLUSTRATION / 009",
+      "category": "ILLUSTRATION",
+      "image": "media/ui-09.webp",
+      "original": "狡兔屋.png"
+    },
+    {
+      "id": "ui-10",
+      "title": "ILLUSTRATION / 010",
+      "category": "ILLUSTRATION",
+      "image": "media/ui-10.webp",
+      "original": "白祇重工.png"
+    },
+    {
+      "id": "ui-11",
+      "title": "EDITORIAL / 011",
+      "category": "EDITORIAL",
+      "image": "media/ui-11.webp",
+      "original": "0ab0c20e45b6c6976b5c4277340cb037_8339179667297204643.png"
+    },
+    {
+      "id": "ui-12",
+      "title": "EDITORIAL / 012",
+      "category": "EDITORIAL",
+      "image": "media/ui-12.webp",
+      "original": "2f09d8fea889370e8425b50bdf9f2be7_8103042185599313952.jpg"
+    },
+    {
+      "id": "ui-13",
+      "title": "EDITORIAL / 013",
+      "category": "EDITORIAL",
+      "image": "media/ui-13.webp",
+      "original": "3667cf58e6d59692bd5a1cdf6600836a_2979295193786803855.png"
+    },
+    {
+      "id": "ui-14",
+      "title": "EDITORIAL / 014",
+      "category": "EDITORIAL",
+      "image": "media/ui-14.webp",
+      "original": "391e16cb9c71178ac6c693b41d51f550_7002690693900107273.png"
+    },
+    {
+      "id": "ui-15",
+      "title": "EDITORIAL / 015",
+      "category": "EDITORIAL",
+      "image": "media/ui-15.webp",
+      "original": "cb90e03b0f66c78d7b7a8f269055c7ab_6141777236822002229.jpg"
+    },
+    {
+      "id": "ui-16",
+      "title": "EDITORIAL / 016",
+      "category": "EDITORIAL",
+      "image": "media/ui-16.webp",
+      "original": "cdce0bf563a95aa2d52394b13a8f1318_5968056127903302100.jpg"
+    },
+    {
+      "id": "ui-17",
+      "title": "EDITORIAL / 017",
+      "category": "EDITORIAL",
+      "image": "media/ui-17.webp",
+      "original": "ffef937e851e1b112d6e4099be4f5bb2_4881774646270964770.jpg"
+    },
+    {
+      "id": "ui-18",
+      "title": "EDITORIAL / 018",
+      "category": "EDITORIAL",
+      "image": "media/ui-18.webp",
+      "original": "2778b29a7e991eb2b699c8d4a9a9eb6e_6168131123048916340.png"
+    },
+    {
+      "id": "ui-19",
+      "title": "INTERFACE / 019",
+      "category": "INTERFACE",
+      "image": "media/ui-19.webp",
+      "original": "04c7a446be0527b33975f129e31b6f3b_4650180302748956742.png"
+    },
+    {
+      "id": "ui-20",
+      "title": "INTERFACE / 020",
+      "category": "INTERFACE",
+      "image": "media/ui-20.webp",
+      "original": "dec4e3026ec478167f83b771a00c8b21_8712665634711299954.jpg"
+    },
+    {
+      "id": "ui-21",
+      "title": "INTERFACE / 021",
+      "category": "INTERFACE",
+      "image": "media/ui-21.webp",
+      "original": "003.png"
+    },
+    {
+      "id": "ui-22",
+      "title": "INTERFACE / 022",
+      "category": "INTERFACE",
+      "image": "media/ui-22.webp",
+      "original": "007.png"
+    },
+    {
+      "id": "ui-23",
+      "title": "INTERFACE / 023",
+      "category": "INTERFACE",
+      "image": "media/ui-23.webp",
+      "original": "013.png"
+    },
+    {
+      "id": "ui-24",
+      "title": "INTERFACE / 024",
+      "category": "INTERFACE",
+      "image": "media/ui-24.webp",
+      "original": "016.png"
+    },
+    {
+      "id": "ui-25",
+      "title": "INTERFACE / 025",
+      "category": "INTERFACE",
+      "image": "media/ui-25.webp",
+      "original": "027.png"
+    },
+    {
+      "id": "ui-26",
+      "title": "INTERFACE / 026",
+      "category": "INTERFACE",
+      "image": "media/ui-26.webp",
+      "original": "032.png"
+    }
+  ]
+}
