@@ -1,53 +1,47 @@
-# FRAMEVERSE
+# FRAMEVERSE / VISUAL CULTURE ARCHIVE
 
-An independent anime, comics and collecting culture website. Cinematic original visual concepts, convention listings, collector knowledge and editorial content in a fast, accessible, dependency-free web experience.
+FRAMEVERSE is an independently presented visual archive of **Zenless Zone Zero** aesthetics, scenes, character card layouts, CG art, Bangboo graphics and UI design. It reimagines the earlier figure-collecting site as a graphic / cultural exploration experience.
+
+**This website is independent and unofficial.** Zenless Zone Zero and all game imagery belong to their respective rights holders. The user provided the original art files; this source distribution is for personal/local review and does not grant permission to commercially reuse or publicly republish them.
 
 ## Run locally
 
-```bash
-python3 -m http.server 8000
-```
+- Double-click `start.command` on macOS or `start.bat` on Windows, **or**
+- Run `npm run dev` with Node.js 18+, then visit `http://localhost:4173/`.
+- Run `npm test` to validate page structure and media references.
 
-Open <http://localhost:8000>. On macOS, you can also double-click `start.command` (with Node.js or Python 3 installed); on Windows use `start.bat`.
+There is no `npm install`: this is a **dependency-free static website** with HTML, CSS, vanilla JavaScript and an optional Node HTTP server. `build.py` generates the pages from `data/archive.json`. The original curated media are stored as optimized WebP files under `media/`.
+
+## Completed routes
+
+- `index.html` — cinematic hero with interactive slide switching, featured character and archive modules
+- `agents.html` — searchable character-card visual archive; twelve individual detail pages
+- `scenes.html` — 24 curated city images with category filters and full-screen viewer
+- `bangboo.html` — 22 Bangboo entries with class filters and viewer
+- `cg.html` — 9 CG works with a cinematic gallery
+- `ui.html` — 26 posters, illustrations and visual UI pieces
+- `wallpapers.html` — 6 optimized wallpapers with local download links
+- `journal.html` — four visual editorial entry points (not fabricated current news)
+- `about.html` — archive context and explicit unofficial status
+
+## Features
+
+Responsive navigation; accessible search overlay (Cmd/Ctrl+K); image viewer (arrow keys / Escape); hero rotation and manual controls; agent feature switching; functional filters; responsive designs; motion-reduced fallback; asset thumbnails and credits.
 
 ## Architecture
 
-- `build.py`: deterministic static-site source and content definitions. Generates 24 HTML pages.
-- `assets/site.css`: design system, layout, animations and responsive styles.
-- `assets/site.js`: progressive enhancements: filtering, sorting, search, gallery lightbox, navigation, hero slider, contact workflow.
-- `assets/*.webp`: original generated visual concept photography. All featured figure imagery is illustrative concept art, not manufacturer product photography.
-- `assets/search-index.json`: generated site-wide search index.
-- `tests/`: browser integration and structural checks.
+- `scripts/prepare_assets.py` — one-time image curation from provided ZIP extractions (not needed to run site)
+- `data/archive.json` — curated inventory / descriptions
+- `build.py` — statically writes the pages and global search index
+- `assets/site.css` — visual system / responsive design
+- `assets/site.js` — website interactions / search / lightbox
+- `media/` — optimized selected game visual assets
+- `tests/` — structural checks
 
-Rebuild generated HTML and index after content edits with `python3 build.py`. Do not hand-edit generated HTML, because the generator is the source of truth.
+## Image availability and limitations
 
-## Publishing
+No standalone transparent full-body character Live2D / 3D assets were provided; character pages use the selected **character-card posters**. The scene screenshots preserve embedded attribution / screenshot identifiers. Real-time events, live game data, authentication, paid services and 3D model viewers are not implemented. No tracking or personal-data collection is enabled.
 
-Deploy the entire repository root as a static site to Vercel, Netlify or Cloudflare Pages; no build step or runtime service is needed. All pages are standalone `.html` files. Configure a custom domain when available; set `SITE_URL=https://your-real-domain.example` when rebuilding to generate a valid `sitemap.xml`.
+## Deployment and GitHub
 
-## Contact workflow
-
-The contact form validates data and opens the visitor's email application with a populated message to the editorial inbox. It **does not claim** to transmit mail from the website. For a direct in-page submission endpoint, a verified mail service and server-side API would be required.
-
-## Data and imagery
-
-- Featured figure designs are original visual concept images and **not products for sale**.
-- Convention dates and locations were checked against official organizer pages in November 2026; editorial entries link to sources. Revalidate before future publication.
-- The site is not affiliated with LINXAI, event organizers, figure companies, or Japanese/American comics licensors.
-- The site draws architectural inspiration from premium technology/product websites without copying their code, assets, trademarks or marketing text.
-
-## Quality goals
-
-- Standalone HTML documents and semantic structure
-- Fully functioning client-side filters, responsive nav, lightbox, search and mailto
-- Keyboard accessibility, focus styles, reduced-motion support
-- Accessible external links with `noopener noreferrer`
-- No mandatory client dependencies; no tracker by default
-
-## Development workflow
-
-Feature branches → incremental commits → pull request → checks/review → merge. CI definition in `.github/workflows/checks.yml`. Local Git history is real and should not be backdated to imply fictitious development.
-
-## Notes
-
-This release intentionally uses a static multi-page architecture rather than a larger React/Next.js bundle. The user experience is content-led and does not need server-rendered application state, so no-dependency distribution minimizes bugs, dependency and hosting costs. A CMS, payment service or membership system can be introduced later if business needs justify it.
+Commit/branch/merge history is real and local. No GitHub remote has been connected for this version. For a future deployment, confirm you hold appropriate publication rights for the third-party images and trademarks.
