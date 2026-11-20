@@ -46,6 +46,15 @@ Responsive navigation; accessible search overlay (Cmd/Ctrl+K); image viewer (arr
 
 No standalone transparent full-body character Live2D / 3D assets were provided; character pages use the selected **character-card posters**. The scene screenshots preserve embedded attribution / screenshot identifiers. Real-time events, live game data, authentication, paid services and 3D model viewers are not implemented. No tracking or personal-data collection is enabled.
 
-## Deployment and GitHub
+## Source, version history and deployment
 
-Commit/branch/merge history is real and local. No GitHub remote has been connected for this version. For a future deployment, confirm you hold appropriate publication rights for the third-party images and trademarks.
+- GitHub repository: https://github.com/xuanz3/FRAMEVERSE
+- Automated checks: `.github/workflows/checks.yml` on pushes and pull requests.
+- This repository uses actual Git commits, feature branches and merges; it does not artificially backdate activity.
+- For the initial remote push, use `PUBLISH_TO_GITHUB.command` on macOS or GitHub Desktop with the repository folder, **including its `.git` directory**.
+- After the initial push, connect the repo to Netlify via **Add new project → Import an existing project → GitHub → FRAMEVERSE**. Select an empty build command and `/` as the publish directory.
+- Any future change should be made on a feature branch and proposed as a Pull Request.
+
+![FRAMEVERSE homepage preview](docs/home-preview.png)
+
+**Rights note:** The site's bespoke markup, style and interaction code is separate from the third-party Zenless Zone Zero visual materials. Possession of images does not establish redistribution rights. Confirm publisher permissions before public redistribution or commercial use.
