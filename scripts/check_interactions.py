@@ -18,6 +18,7 @@ with sync_playwright() as p:
   page.route('https://frameverse.test/**',intercept)
   def load(name):
    page.set_content((R/name).read_text().replace('<head>','<head><base href="https://frameverse.test/">',1),wait_until='load',timeout=12000)
+   page.wait_for_function("document.documentElement.dataset.frameverseReady === '1'",timeout=10000)
   load('index.html')
   if mode=="desktop": page.locator('[data-slide="2"]').click(force=True)
   else:
