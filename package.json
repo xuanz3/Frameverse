@@ -1,8 +1,8 @@
 {
-  "name": "frameverse",
-  "version": "1.0.0",
+  "name": "frameverse-visual-archive",
+  "version": "2.0.0",
   "private": true,
-  "description": "An independent anime, comics and collecting culture website.",
+  "description": "FRAMEVERSE — independent Zenless Zone Zero visual culture archive",
   "type": "module",
   "scripts": {
     "dev": "node server.mjs",
